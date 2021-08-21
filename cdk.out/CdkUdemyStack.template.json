@@ -1,0 +1,36 @@
+{
+  "Resources": {
+    "myBucketId9D590DD7": {
+      "Type": "AWS::S3::Bucket",
+      "Properties": {
+        "BucketEncryption": {
+          "ServerSideEncryptionConfiguration": [
+            {
+              "ServerSideEncryptionByDefault": {
+                "SSEAlgorithm": "AES256"
+              }
+            }
+          ]
+        },
+        "BucketName": "sasa-cdk0821",
+        "VersioningConfiguration": {
+          "Status": "Enabled"
+        }
+      },
+      "UpdateReplacePolicy": "Retain",
+      "DeletionPolicy": "Retain",
+      "Metadata": {
+        "aws:cdk:path": "CdkUdemyStack/myBucketId/Resource"
+      }
+    },
+    "CDKMetadata": {
+      "Type": "AWS::CDK::Metadata",
+      "Properties": {
+        "Analytics": "v2:deflate64:H4sIAAAAAAAACiWKQQqDMBAA3+I9rg05eZPmA8W+QNYV09AEshtEQv4umtMMzGjQeoRXNy0H97j6oWBMBOUrC3plY2BJGUXZLczEMSekqu6XDZR3Rk9Pa1ar+pyyxzAYGMF0P3auTzmI+xPMjRcOzU3TcQAAAA=="
+      },
+      "Metadata": {
+        "aws:cdk:path": "CdkUdemyStack/CDKMetadata/Default"
+      }
+    }
+  }
+}
