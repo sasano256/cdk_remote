@@ -1,5 +1,5 @@
 
-# Welcome first Python project!
+# Welcome first2 Python project!
 
 This is a blank project for Python development with CDK.
 
